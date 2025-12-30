@@ -145,6 +145,18 @@ To set this up, go to :menuselection:`Preferences --> Completion and linting -->
    :alt: Spyder's preferences dialog, showing checking the autoformat files on save setting
 
 
+Multi-Cursor editing
+~~~~~~~~~~~~~~~~~~~~
+
+Multiple text cursors may be used to edit text at several locations simultaneously in order to increase typing efficiency. Add extra cursors above or below the primary cursor with keyboard shortcuts, or by clicking with a mouse shortcut.
+
+.. image:: /images/editor/editor-multi-cursor-1.gif
+   :alt: Spyder Editor pane, showing an example of editing using multiple text cursors
+
+Clicking within the editor without holding one of the multi-cursor shortcuts will cancel all additional cursors and return to single cursor editing. Additional cursors may also be canceled using the :kbd:`Esc` key by default.
+
+Many other regular shortcuts support multi-cursor editing, including expanded copy and paste functionality which is configurable along with other multi-cursor settings in :menuselection:`Preferences --> Editor --> Advanced`
+
 
 ============
 Running code
